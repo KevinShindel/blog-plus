@@ -1,0 +1,69 @@
+/* NEWS BLOCK */
+
+.news a {
+  font: 12.8px Roboto regular;
+  color: blue;
+  padding-left: 270px;
+}
+
+.news div {
+  font: bold 18.28px Roboto;
+  line-height: 21.94px;
+  color: #797979;
+}
+
+/* END NEWS BLOCK */
+
+/* GALLERY BLOCK */
+
+.gallery .row p {
+  font: 12.27px Roboto Regular;
+}
+
+/* END GALLERY BLOCK */
+
+/* HEADER BLOCK */
+
+#enter span {
+  font: 20px Roboto Regular;
+  color: #333333;
+}
+
+#logo {
+  font: italic 48px Roboto black;
+  color: #333333;
+  margin-right: 56px;
+}
+
+/* END HEADER BLOCK */
+
+/* FEEDBACK BLOCK */
+
+span.name {
+  color: #000000;
+  font: bold 20px Roboto;
+  padding-right: 37px;
+}
+
+.content {
+  font: 12.8px Roboto Regular;
+  color: #797979;
+}
+
+section.float {
+  text-decoration: none;
+  color: #333333;
+}
+
+p.title {
+  font: bold 24px Roboto;
+}
+
+ .comment p {
+  font: regular 16px Roboto;
+  color: #797979;
+  line-height: 22px;
+  margin-left: 222px;
+}
+
+/* END FEEDBACK BLOCK */
