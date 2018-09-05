@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #cfe5ef;
+  height: 150px;
+}
+
+.logo {
+  font: italic 48px Roboto Black;
+  padding-right: 54px;
+  padding-left: 14%;
+  position: relative;
+  top: 10px;
+}
+
+.logo img {
+  top: 10px;
+  padding-right: 5px;
+}
+
+/* MENU BLOCK */
+.menu {
+  position: relative;
+  top: 30px;
+}
+
+.menu * {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+ul li:hover {
+  background-color: #FFF;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a, span {
+  font: Bold 20px Roboto;
+  text-decoration: none;
+  color: #333333;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  min-width: 140px;
+  /* border: 1px solid black; */
+  border-radius: 0 5px 5px 5px;
+  background-color: #fff;
+  text-align: left;
+  padding: 12px 17px 12px 17px;
+}
+
+.menu li:hover .submenu {
+  display: inline-block;
+}
+
+/* END MENU BLOCK */
+.enter {
+  font: 20px Roboto Regular;
+  margin-left: 434px;
+  padding: 23px 36px 19px 36px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+/* SECTION BLOCK */
+section {
+  float: left;
+  margin-top: 14px;
+}
+
+section.blank {
+  position: relative;
+  top: 54px;
+}
+
+section.icons {
+  width: 16.875%;
+  height: 50px;
+}
+
+section.blank {
+  width: 16.875%;
+  height: 50px;
+}
+
+/* END SECTION BLOCK */
+/* LEFT SECTION */
+section.blank span {
+  font: Bold 24px Roboto;
+}
+
+section.blank hr {
+  position: absolute;
+  width: 200px;
+  left: 14%;
+  height: 3px;
+  color: #c3c3c3;
+}
+
+/* RIGHT SECTION */
+section.icons span {
+  font: italic 13.02px Roboto;
+  color: #a7a7a7;
+}
+
+.icon img {
+  display: inline-block;
+  padding-top: 12px;
+  width: 26px;
+  height: 26px;
+}
+
+/* END RIGHT SECTION */
+/* CENTER SECTION */
+.forms input[type="submit"],
+.forms input[type="reset"],
+.forms input[type="button"]{
+  height: 42px;
+  min-width: 102px;
+  border: 1px solid #999999;
+  background-color: #ffffff;
+  font: 14px Roboto Regular;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.forms label[for="upload"]  {
+  display: inline-block;
+  text-align: center;
+  vertical-align: baseline;
+  height: 42px;
+  min-width: 102px;
+  border: 1px solid #999999;
+  background-color: #ffffff;
+  font: 14px Roboto Regular;
+  padding: 10.5px 6px 9px 6px;
+  box-sizing: border-box;
+}
+
+.forms input[type="text"] {
+  display: inline-block;
+  width: calc(25% - 20px - 7px);
+  height: 42px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.forms label[for="text"] {
+  display: inline-block;
+  width: calc(25% - 20px - 3px);
+  height: auto;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.label_box label{
+  display: inline-block;
+  width: calc(50% - 12px);
+  margin-top: 36px;
+  margin-bottom: 13px;
+  padding-left: 10px;
+}
+
+.forms .radio_block, .checkbox_block {
+  display: inline-block;
+  width: calc(50% - 20px);
+  padding-left: 10px;
+  margin-bottom: 36px;
+}
+.radio_block label, .checkbox_block label {
+  margin-right: 30px;
+}
+
+
+/* TEXTAREA BLOCK  */
+
+.textarea div label{
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin-top: 10px;
+  margin-bottom: 13px;
+  padding-left: 10px;
+
+}
+
+
+textarea {
+  display: inline-block;
+  width: calc(50% - 20px - 8px);
+  height: 168px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+section.forms {
+  height: 957px;
+  width: 66.25%;
+  margin-top: 100px;
+}
+
+/* END CENTER SECTION */
