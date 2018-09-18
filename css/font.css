@@ -1,0 +1,26 @@
+.link_fix a {
+  text-decoration: none;
+}
+
+
+
+.submenu_font {
+  font: 20px Roboto Regular;
+}
+
+.menu_color * {
+  color: #333333;
+}
+
+.menu_font {
+  font:Bold 20px Roboto;
+  }
+
+.caption_font {
+  font:Bold 24px Roboto;
+  }
+
+.logo_font {
+  font:Italic 48px Roboto Black;
+  color: #333333;
+}

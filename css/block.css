@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* HEADER BLOCK */
+.block {
+  width: 100%;
+}
+
+.block__color {
+  background-color: #cfe5ef;
+}
+
+.block__main {
+  position: relative;
+  width: 65%;
+  margin: 0 16% 0 16%;
+  padding: 0 10px 0 10px;
+}
+
+.block__main * {
+  display: inline-block;
+  }
+
+.block_height {
+  height: 106px;
+  }
+  .header__top {
+    padding-top: 44px;
+  }
+
+.logo {
+  margin-right: 50px;
+  position: relative;
+  padding-left: 60px;
+  top: -20px;
+}
+
+.logo span {
+  position: absolute;
+  width: 60px;
+  height: 62px;
+  top: auto;
+  left: 0px;
+  vertical-align: middle;
+  background: url(../images/logo.png) no-repeat;
+  }
+
+ .logo:hover {
+   color: #52359d;
+ }
+
+ .logo:hover  span {
+   background: url(../images/logo_hover.png) no-repeat;
+ }
+
+/* MENU */
+
+.ul_menu_fix ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainmenu * {
+  position: relative;
+}
+
+.mainmenu li {
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.mainmenu > li::after {
+content: '';
+position: absolute;
+left: 99.4%;
+top:25%;
+width: 2px;
+height: 14px;
+background-color: black;
+z-index: 2;
+}
+
+.mainmenu > li:last-child::after{
+ 	content:"";
+ 	height: 0px;
+ }
+
+ .clearfix {
+   clear: both;
+ }
+
+.mainmenu li:hover {
+  background-color: #FFF;
+}
+
+ul li:hover .submenu {
+  display: inline-block;
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left:0;
+  background-color: #fff;
+  min-width: 170px;
+  height: auto;
+  border-radius: 0 5px 5px 5px;
+  z-index: 1;
+  }
+
+.submenu {
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+}
+  .submenu li {
+    padding: 0px 17px 0px 17px;
+  }
+
+/* END MENU */
+.form_block {
+  position: relative;
+  background-color: #ccc;
+  width: 300px;
+  padding: 2px;
+}
+
+.form_block input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 46px;
+}
+
+.form_icon {
+  position: absolute;
+  display: inline-block;
+  margin: -1px 4px 4px 0;
+  top: 10px;
+  left: 19px;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+
+.lock_icon {
+  background: url(../images/sprite.png) top left -24px no-repeat;
+}
+
+.caption {
+  position: relative;
+  display: inline-block;
+  top: 54px;
+}
+
+.caption_line {
+  position: absolute;
+  display: block;
+  top: 150%;
+  height: 4px;
+  width: 100%;
+  background-color: #c3c3c3;
+}
+
+
+/* END HEADER BLOCK */
